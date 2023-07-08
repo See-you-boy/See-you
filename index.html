@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>404首页</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            color: #000;
+            text-decoration:none;
+        }
+        ul{
+            width: 170px;
+            margin: 100px auto;
+        }
+        li{
+            width: 64px;
+            margin-left: 50px;
+            line-height: 30px;
+            padding: 5px;
+            font-size: 20px;
+            border-bottom: 1px dotted;
+        }
+        .bottom{
+            border-bottom: none;
+        }
+        a:hover {
+            color: #ff00ff;
+        }
+    </style>
+    <!-- <script>
+        function randomColor() {
+        var letters = "0123456789ABCDEF";
+        var color = "#";
+        for (var i = 0; i< 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+        }
+        setInterval(function() {
+        var elements = document.getElementsByTagName("a");
+        for (var i = 0; i< elements.length; i++) {
+        elements[i].style.color = randomColor();
+        document.body.style.backgroundColor = randomColor();
+        }
+        }, 350);
+    </script> -->
+</head>
+<body>
+    <ul>
+        <li><a href="./1.html">1</a></li>
+        <li><a href="./2.html">2</a></li>
+        <li><a href="./3.html">3</a></li>
+        <li><a href="./4.html">4</a></li>
+        <li><a href="./5.html">5</a></li>
+        <li><a href="./6.html">6</a></li>
+        <li><a href="./7.html">7</a></li>
+        <li><a href="./8.html">8</a></li>
+        <li class="bottom"><a href="./9.html">9</a></li>
+    </ul>
+    
+    <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
+    <script type="text/javascript" src="js/baozha.js"></script>
+    <script type="text/javascript" src="js/bk123.js"></script>
+
+</body>
+</html>
